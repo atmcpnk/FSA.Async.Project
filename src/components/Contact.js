@@ -1,5 +1,6 @@
 // contact component
 import React from 'react';
+import Footer from './Footer';
 
 const Contact = () => {
     return (
@@ -23,6 +24,7 @@ const Contact = () => {
                     <textarea id='message' name='message' />
                     <button type='submit'>Submit</button>
                 </form>
+                <Footer id='footer'/>
             </div>
         </>
     )

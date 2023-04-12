@@ -1,5 +1,6 @@
 // Home component, will serve simply as the Home Page for the site
 import React from 'react';
+import Footer from './Footer.js';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
                     {/* link to contact page*/}
                 </main>
                 {/* NavLink to footer */}
+                <Footer id='footer'/>
             </div>
         </>
     )

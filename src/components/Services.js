@@ -1,5 +1,7 @@
 // services component
 import React from 'react';
+import Footer from './Footer';
+import { NavLink } from 'react-router-dom';
 
 const Services = () => {
     return (
@@ -30,7 +32,8 @@ const Services = () => {
                 {/* images here of hair examples */}
                 <img src='https://media.istockphoto.com/id/1147811403/photo/business-woman-lady-boss-in-beauty-salon-making-hairdress-and-looking-to-the-mirror.jpg?s=1024x1024&w=is&k=20&c=w-AdYfdj891KLQmZZ0UV8KldN0slqr4di8v5o8WmYFo=' alt='hair-example' />
                 <p>contact us to schedule your appointment!</p>
-                {/* add a button to the contact page here */}
+                <NavLink to='/contact' id='contact-link'>Contact Us</NavLink>
+                <Footer id='footer'/>
             </div>
         </>
     )

@@ -1,5 +1,6 @@
 // About Us component  
 import React from 'react';
+import Footer from './Footer';
 
 
 const AboutUs = () => {
@@ -17,13 +18,12 @@ Dictumst enim class faucibus hac, orci condimentum. Quisque, blandit feugiat mas
                 </aside>
                 <aside id='about-us-team'>
                     <h2>Our Team</h2>
-                    {/* add a stock image here for team member, team member name should be a link to team page */}
                     <img src='https://t4.ftcdn.net/jpg/02/15/84/43/360_F_215844325_ttX9YiIIyeaR7Ne6EaLLjMAmy4GvPC69.jpg' alt='team member' />
                     <h3>Team Member</h3> 
-                    {/* add a stock image here for team member, team member name should be a link to team page */}
                     <img src='https://t4.ftcdn.net/jpg/02/15/84/43/360_F_215844325_ttX9YiIIyeaR7Ne6EaLLjMAmy4GvPC69.jpg' alt='team member' />
                     <h3>Team Member</h3>
                 </aside>
+                <Footer id='footer'/>
             </div>
         </>
     )
