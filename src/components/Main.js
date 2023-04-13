@@ -10,9 +10,9 @@ import Contact from './Contact';
 const Main = () => {
     return (
         <>
-            <div>
+            <div id='nav-bar-ctr'>
                 <nav id='nav-bar'>
-                    <h1>Bloom Salon and Spa</h1>
+                    <h1 id='nav-bar-title'>Bloom Salon and Spa</h1>
                     {/* add NavLinks here for Home Page, Services, About Us, Contact */}
                     <NavLink to="/" id='nav-links'>Home</NavLink>
                     <NavLink to="/services" id='nav-links'>Services</NavLink>

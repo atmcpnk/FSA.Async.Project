@@ -1,0 +1,63 @@
+#body{
+    background-color: #08172e;
+}
+
+#nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 3%;
+    background-color: #2b3d5b;
+    border: 2px solid #bd9060;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+#nav-bar-title{
+    font-size: 2em;
+    color: #bd9060;
+}
+
+#nav-links{
+    text-decoration: none;
+    color: #bd9060;
+    border: 2px solid #bd9060;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: #15253f;
+}
+
+#nav-links:hover{
+    color: #f2e9e1;
+}
+
+#home-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2b3d5b;
+    border: 2px solid #bd9060;
+    border-radius: 10px;
+    margin: 3%;
+    font-family: sans-serif;
+    color: #bd9060;
+    padding-bottom: 2%;
+}
+
+#home-bio{
+    width: 50%;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+#salon-interior-pic{
+    border-radius: 10px;
+    width: 40%;
+}
+
+#salon-shower-pic{
+    border-radius: 10px;
+    width: 40%;
+}
