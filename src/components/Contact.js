@@ -11,7 +11,7 @@ const Contact = () => {
                 <p>Phone: 555-555-5555</p>
                 <p>Email: email@email.com</p>
                 {/* insert an image of the salon here from the images folder, unk issue, can't get the photos to render from file*/}
-                <img src='https://c8.alamy.com/comp/HFAF1N/usa-south-carolina-charleston-pink-dot-beauty-bar-parlor-parlour-salon-HFAF1N.jpg' alt='salon' />
+                <img src='https://c8.alamy.com/comp/HFAF1N/usa-south-carolina-charleston-pink-dot-beauty-bar-parlor-parlour-salon-HFAF1N.jpg' alt='salon' id='salon-outside-pic'/>
                 <h3>Or Send Us a Request Here!</h3>
                 <form id='contact-form'>
                     <label htmlFor='name'>Name:</label>
@@ -24,8 +24,8 @@ const Contact = () => {
                     <textarea id='message' name='message' />
                     <button type='submit'>Submit</button>
                 </form>
-                <Footer id='footer'/>
             </div>
+            <Footer id='footer'/>
         </>
     )
 };

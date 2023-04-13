@@ -61,3 +61,106 @@
     border-radius: 10px;
     width: 40%;
 }
+
+#services-container{
+    display: inline-block;
+    justify-content: center;
+    background-color: #2b3d5b;
+    border: 2px solid #bd9060;
+    border-radius: 10px;
+    font-family: sans-serif;
+    color: #bd9060;
+    padding: 2%;
+    margin: 2%;
+    margin-left: 15%;
+}
+
+#contact-link{
+    text-decoration: none;
+    color: #bd9060;
+    border: 2px solid #bd9060;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: #15253f;
+}
+
+#contact-link:hover{
+    color: #f2e9e1;
+}
+
+#about-us-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2b3d5b;
+    border: 2px solid #bd9060;
+    border-radius: 10px;
+    margin: 3%;
+    font-family: sans-serif;
+    color: #bd9060;
+    padding-bottom: 2%;
+}
+
+#about-us-bio{
+    width: 50%;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+#contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2b3d5b;
+    border: 2px solid #bd9060;
+    border-radius: 10px;
+    margin: 3%;
+    font-family: sans-serif;
+    color: #bd9060;
+    padding-bottom: 2%;
+}
+
+#salon-outside-pic{
+    border-radius: 10px;
+    width: 40%;
+}
+
+#contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2b3d5b;
+    border: 2px solid #bd9060;
+    border-radius: 10px;
+    margin: 3%;
+    font-family: sans-serif;
+    color: #bd9060;
+    width: 30%;
+    padding: 2%;
+}
+
+#footer-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #2b3d5b;
+    border: 2px solid #bd9060;
+    border-radius: 10px;
+    margin: 3%;
+    font-family: sans-serif;
+    color: #bd9060;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+#social-media-links{
+    color: #bd9060;
+    padding: 5%;
+}
+
+#social-media-links:hover{
+    color: #f2e9e1;
+}

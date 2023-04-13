@@ -6,8 +6,8 @@ import { NavLink } from 'react-router-dom';
 const Services = () => {
     return (
         <>
-            <div>
-                <main id='services-container'>
+            <div id='services-container'>
+                <main>
                     <h1>Our Services</h1>
                     <p>below are all services offered at their starting rate, prices may vary depending on multiple factors
                         for any questions feel free to contact us!
@@ -30,11 +30,11 @@ const Services = () => {
                     </ul>
                 </aside>
                 {/* images here of hair examples */}
-                <img src='https://media.istockphoto.com/id/1147811403/photo/business-woman-lady-boss-in-beauty-salon-making-hairdress-and-looking-to-the-mirror.jpg?s=1024x1024&w=is&k=20&c=w-AdYfdj891KLQmZZ0UV8KldN0slqr4di8v5o8WmYFo=' alt='hair-example' />
+                {/* <img src='https://media.istockphoto.com/id/1147811403/photo/business-woman-lady-boss-in-beauty-salon-making-hairdress-and-looking-to-the-mirror.jpg?s=1024x1024&w=is&k=20&c=w-AdYfdj891KLQmZZ0UV8KldN0slqr4di8v5o8WmYFo=' alt='hair-example' /> */}
                 <p>contact us to schedule your appointment!</p>
                 <NavLink to='/contact' id='contact-link'>Contact Us</NavLink>
-                <Footer id='footer'/>
             </div>
+            <Footer id='footer'/>
         </>
     )
 };

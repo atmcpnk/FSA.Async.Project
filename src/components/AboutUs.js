@@ -6,8 +6,8 @@ import Footer from './Footer';
 const AboutUs = () => {
     return (
         <>
-            <div>
-                <main id='about-us-container'>
+            <div id='about-us-container'>
+                <main>
                     <h1>About Our Team</h1>
                 </main>
                 <aside id='about-us-bio'>
@@ -19,12 +19,12 @@ Dictumst enim class faucibus hac, orci condimentum. Quisque, blandit feugiat mas
                 <aside id='about-us-team'>
                     <h2>Our Team</h2>
                     <img src='https://t4.ftcdn.net/jpg/02/15/84/43/360_F_215844325_ttX9YiIIyeaR7Ne6EaLLjMAmy4GvPC69.jpg' alt='team member' />
-                    <h3>Team Member</h3> 
+                    <h3 id='team-member'>Team Member</h3> 
                     <img src='https://t4.ftcdn.net/jpg/02/15/84/43/360_F_215844325_ttX9YiIIyeaR7Ne6EaLLjMAmy4GvPC69.jpg' alt='team member' />
-                    <h3>Team Member</h3>
+                    <h3 id='team-member'>Team Member</h3>
                 </aside>
-                <Footer id='footer'/>
             </div>
+            <Footer id='footer'/>
         </>
     )
 };
