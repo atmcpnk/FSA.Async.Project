@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/atmcpnk/FSA.Async.Project#readme",
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.10.0"
