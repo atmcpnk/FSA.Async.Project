@@ -40,6 +40,7 @@ const Main = () => {
                     <Route path='/about-us' element={<AboutUs />} />
                     <Route path='/contact' element={<Contact />} />
                     <Route path='/login' element={<LoginForm />} />
+                    <Route path='/account' element={<Account />} />
                 </Routes>
             </div>
         </>
