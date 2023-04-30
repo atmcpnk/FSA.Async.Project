@@ -3,7 +3,7 @@ import { Routes, Route, NavLink } from "react-router-dom";
 import { users } from "../../db/db";
 import Footer from "./Footer";
 
-const LoginForm = () => {
+const LoginForm = () => { // could pass in setLoggedIn as a prop here. move the state up to Main.js
     const [email, setEmail ] = useState("");
     const [password, setPassword ] = useState("");
     const [loggedIn, setLoggedIn ] = useState(false);
