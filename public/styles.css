@@ -175,3 +175,88 @@
     color: #f2e9e1;
 }
 
+#team-member-ctr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2b3d5b;
+    border: 2px solid #bd9060;
+    border-radius: 10px;
+    margin: 3%;
+    font-family: sans-serif;
+    color: #bd9060;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+#member-bio{
+    width: 50%;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+#team-member-pic{
+    border-radius: 10px;
+    width: 30%;
+}
+
+#login-ctr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2b3d5b;
+    border: 2px solid #bd9060;
+    border-radius: 10px;
+    margin: 3%;
+    font-family: sans-serif;
+    color: #bd9060;
+    /* padding-bottom: 1%; */
+    padding: 5%;
+    text-align: center;
+}
+
+#login-btn{
+    text-decoration: none;
+    color: #bd9060;
+    border: 2px solid #bd9060;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: #15253f;
+    cursor: pointer;
+}
+
+#login-btn:hover{
+    color: #f2e9e1;
+}
+
+#username{
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    border: 2px solid #bd9060;
+}
+
+#password{
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    border: 2px solid #bd9060;
+}
+
+#welcome-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2b3d5b;
+    border: 2px solid #bd9060;
+    border-radius: 10px;
+    margin: 3%;
+    font-family: sans-serif;
+    color: #bd9060;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    text-align: center;
+}

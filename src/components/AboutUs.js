@@ -18,7 +18,9 @@ const AboutUs = () => {
 Dictumst enim class faucibus hac, orci condimentum. Quisque, blandit feugiat massa senectus. Dictumst tincidunt dictum sem interdum, inceptos sem! Class sit vitae morbi mollis luctus magna eget tempus. Erat bibendum lectus velit curae; ac condimentum cras lorem lacus. Parturient tortor cum suscipit diam dictum. Phasellus volutpat vulputate hendrerit mollis pretium. Ultrices facilisi tincidunt nulla consectetur, fringilla gravida dui tortor malesuada habitasse. Velit id fusce primis facilisis massa fames proin lobortis euismod. Pellentesque auctor senectus volutpat nascetur magnis sollicitudin tortor.</p>
                 </aside>
                 <aside id='about-us-team'>
-                    <h2>Our Team</h2>
+                    <h2>Our Team</h2> 
+                    {/* could later add a db to store team members to individually add them, as opposed to 
+                    creating an individual react element for each team member */}
                     <NavLink to='/team-member' id='team-member-link'>
                     <img src='https://t4.ftcdn.net/jpg/02/15/84/43/360_F_215844325_ttX9YiIIyeaR7Ne6EaLLjMAmy4GvPC69.jpg' alt='team member' />
                     <h3 id='team-member'>Team Member</h3>

@@ -30,7 +30,7 @@ const LoginForm = () => { // could pass in setLoggedIn as a prop here. move the 
         <>
             {loggedIn ? (
         <div>
-          <h1>Welcome, {username}</h1>
+          <h1 id="welcome-message">Welcome, {username}</h1>
         </div>
       ) : (
         <div id="login-ctr">
