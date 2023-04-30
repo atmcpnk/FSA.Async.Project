@@ -1,6 +1,7 @@
 // About Us component  
 import React from 'react';
 import Footer from './Footer';
+import { NavLink } from 'react-router-dom';
 
 
 const AboutUs = () => {
@@ -18,10 +19,14 @@ Dictumst enim class faucibus hac, orci condimentum. Quisque, blandit feugiat mas
                 </aside>
                 <aside id='about-us-team'>
                     <h2>Our Team</h2>
-                    <img src='https://t4.ftcdn.net/jpg/02/15/84/43/360_F_215844325_ttX9YiIIyeaR7Ne6EaLLjMAmy4GvPC69.jpg' alt='team member' />
-                    <h3 id='team-member'>Team Member</h3> 
+                    <NavLink to='/team-member' id='team-member-link'>
                     <img src='https://t4.ftcdn.net/jpg/02/15/84/43/360_F_215844325_ttX9YiIIyeaR7Ne6EaLLjMAmy4GvPC69.jpg' alt='team member' />
                     <h3 id='team-member'>Team Member</h3>
+                    </NavLink> 
+                    <NavLink to='/team-member' id='team-member-link'>
+                    <img src='https://t4.ftcdn.net/jpg/02/15/84/43/360_F_215844325_ttX9YiIIyeaR7Ne6EaLLjMAmy4GvPC69.jpg' alt='team member' />
+                    <h3 id='team-member'>Team Member</h3>
+                    </NavLink> 
                 </aside>
             </div>
             <Footer id='footer'/>

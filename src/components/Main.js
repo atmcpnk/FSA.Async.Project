@@ -7,6 +7,7 @@ import AboutUs from './AboutUs';
 import Contact from './Contact';
 import LoginForm from './LoginForm';
 import Account from './Account';
+import TeamMember from './TeamMember';
 import { useState, useEffect } from 'react';
 
 // entry point for all component routes 
@@ -41,6 +42,7 @@ const Main = () => {
                     <Route path='/contact' element={<Contact />} />
                     <Route path='/login' element={<LoginForm />} />
                     <Route path='/account' element={<Account />} />
+                    <Route path='/team-member' element={<TeamMember />} />
                 </Routes>
             </div>
         </>

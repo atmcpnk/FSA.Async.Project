@@ -164,3 +164,14 @@
 #social-media-links:hover{
     color: #f2e9e1;
 }
+
+#team-member-link{
+    text-decoration: none;
+    color: #bd9060;
+    cursor: pointer;
+}
+
+#team-member-link:hover{
+    color: #f2e9e1;
+}
+
